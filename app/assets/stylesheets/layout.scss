@@ -1,0 +1,95 @@
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  font-family: 'Myriad Pro', sans-serif;
+  .header {
+    font-size: 30px;
+    padding: 15px 174px;
+    background-color: #1E2D3A;
+    clear: both;
+    height: 32px;
+    font-family: 'Myriad Pro', sans-serif;
+    > a {
+      color: #b85406;
+      font-family: "Lucida Console",sans-serif;
+      font-size: 28px;
+      float: right;
+      position: relative;
+      top: 2px;
+    }
+    ul {
+      float: left;
+      li {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 57px;
+        &:first-child {
+          margin-left: 0;
+        }
+        a {
+          color: #DCDAD0;
+          &:hover {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    background-color: #b55307;
+    height: 250px;
+    width: 100%;
+    .bottom-address {
+      color: #253a4c;
+      display: inline-block;
+      font-size: 18px;
+      height: 140px;
+      margin-left: 160px;
+      margin-top: 15px;
+      width: 230px;
+      p:first-child {
+        color: #fdfffc;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 20px 0;
+      }
+    }
+    .have-questions {
+      display: inline-block;
+      height: 120px;
+      margin-left: 470px;
+      margin-top: 15px;
+      vertical-align: top;
+      width: 310px;
+      p:first-child {
+        color: #fdfffc;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 20px 0;
+      }
+      .bottombutton {
+        background-color: #253a4c;
+        border-radius: 8px;
+        font-size: 20px;
+        height: 70px;
+        margin-left: 15px;
+        text-align: center;
+        width: 220px;
+        p {
+          padding-top: 26px;
+          color: #b55307;
+          font-size: 20px;
+          font-family: 'Myriad Pro', sans-serif;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}
